@@ -101,11 +101,13 @@ public class Book {
 
 	@Override
 	public int hashCode() {
+		
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + Arrays.hashCode(authors);
 		result = prime * result + Objects.hash(amountOfPages, coverType, id, name, price, publisher, publishingYear);
 		return result;
+		
 	}
 
 	@Override
