@@ -20,6 +20,7 @@ public class Publisher {
 			return false;
 		Publisher other = (Publisher) obj;
 		return id == other.id && Objects.equals(publisherName, other.publisherName);
+		
 	}
 
 	private int id; //unique identifier
