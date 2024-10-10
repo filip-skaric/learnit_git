@@ -101,6 +101,10 @@ public class Book {
 
 	@Override
 	public int hashCode() {
+		
+		//komentatr #1
+		//komentatr #2
+		//komentatr #3
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + Arrays.hashCode(authors);
